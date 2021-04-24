@@ -6,7 +6,7 @@ skeleton.move()
 skeleton.attack()
 
 
-// skeleton 2 is not a reference of skeleton
+// skeleton 2 is a reference of skeleton
 // meaning if we change skeleton , then skeleton2 gets updated too
 // This does NOT happen if enemy was a struct rather than a class
 // In fact, if enemy was a struct , then the following line ONLY creates a new copy and not a reference
